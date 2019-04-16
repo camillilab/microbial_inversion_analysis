@@ -57,3 +57,11 @@ We ask that you please cite out paper, CITATION, if you use our scripts in our p
 Please direct any questions to jacob.bourgeois@tufts.edu or Ognjen.Sekulovic@tufts.edu .
 
 Thank you!
+
+----------------------
+
+# Final Notes
+
+One major limitation of the current implementation of this strategy is the relative paucity of BioSample records that have both NCBI Assembly and SRA data. For example, there are nearly 15,000 SRA records for "clostridioides difficile", but only ~530 (~3%) has Assembly data. We could do without the RefSeq data in Assembly, but we lose any nearby gene loci information that can be used to draw regulatory hypotheses.
+
+We are currently working on adding a second pipeline that uses <i>de novo</i> assembly and command-line prokaryotic annotation to overcome this limitation. However, this will vastly increase runtime and using default parameters for assemblers and annotators may be inappropriate. Still, this could help include the other 97% of sequencing data available on the SRA database in the detection and validation of invertible switches. If you have any suggestions, please let me know!
