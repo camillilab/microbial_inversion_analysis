@@ -52,7 +52,7 @@ You may also run analyses over certain descriptors, such as 'GntR family transcr
 
 The output histogram, <b>ir_histogram.csv</b>, gives a breakdown of the detected inverted repeats. The analysis script is still in it's nascent stages, but you may use the classes available to write your own analyses.
 
-We ask that you please cite out paper, CITATION, if you use our scripts in our publication.
+We ask that you please cite out paper, DOI:10.1016/j.anaerobe.2019.102073, if you use our scripts in our publication.
 
 Please direct any questions to jacob.bourgeois@tufts.edu or Ognjen.Sekulovic@tufts.edu .
 
